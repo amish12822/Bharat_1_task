@@ -17,14 +17,12 @@ body{
 
 .container{
     position: relative;
-    width: 440px;
     width: 32.5%;
     height: auto;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(0px);
     border: 2px solid rgba(225, 255, 255, 0.2);
     border-radius: 16px;
-    padding: 20px;
     padding: 30px 25px 30px 25px;
     color: #fff;
     margin: auto;
@@ -39,7 +37,6 @@ body{
     position: relative;
     width: 100%;
     height: 55px;
-    height: 65px;
     display: flex;
     align-items: center;
     margin: 0 0 5% 0;
@@ -48,7 +45,7 @@ body{
 .search-box i{
     position: absolute;
     left: 10px;
-    font-size: 38px;
+    font-size: 33px;
 }
 
 .search-box input{
@@ -59,7 +56,7 @@ body{
     border: 2px solid rgba(225, 255, 255, 0);
     outline: none;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
@@ -82,9 +79,8 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    font-size: 38px;
+    font-size: 33px;
     color: #fff;
-    padding: 0 0 0 0;
     cursor: pointer;
 }
 
@@ -99,18 +95,17 @@ body{
 }
 
 .weather-box img{
-    width: 55%;
+    width: 65%;
     margin: 0 0 2.5% 0;
-    height: 199px;
-    height: 300px;
+    height: 280px;
 }
 
 .weather-box .temperature {
     position: relative;
-    font-size: 74px;
+    font-size: 69px;
     line-height: 1;
     font-weight: 700;
-    margin: 5% 0 0 0;
+    margin: 2% 0 0 0;
     height: 66px;
 }
 
@@ -124,22 +119,19 @@ body{
     font-size: 35px;
     font-weight: 600;
     text-transform: capitalize;
-    margin: 2.5% 0 0 0;
     width: 100%;
     height: 37px;
 }
-
+/* */
 .weather-details{
     position: relative;
     width: 100%;
-    height: 100px;
-    padding: 0 0 0 0;
+    height: 73px;
     display: flex;
     margin: 7.5% 0 0 0;
 }
 
 .weather-details .humidity{
-    padding-left: 15px;
     padding: 0;
     justify-content: flex-start;
     display: flex;
@@ -152,14 +144,13 @@ body{
 .weather-details .humidity i {
     position: absolute;
     top: 0;
-    left: 20px;
+    left: 14.5px;
 }
 
 .weather-details .humidity .text{
     position: absolute;
-    right: 37px;
-    width: 42%;
-    padding: 0 0 0 0;   
+    right: 34.5px;
+    width: 44%;
 }
 
 .weather-details .wind{
@@ -173,29 +164,29 @@ body{
 .weather-details .wind i {
     position: absolute;
     top: 0;
-    left: 5px;
+    left: 0px;
 }
 
 .weather-details .wind .text{
     position: absolute;
-    width: 54%;
-    right: 20px;  
+    width: 60%;
+    right: 14.5px;  
 }
 
 .weather-details i{
-    font-size: 98.5px;
+    font-size: 70px;
 }
 
 .weather-details span{
     display: inline-block;
     width: 100%;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     text-align: right;
 }
 
 .weather-details p{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 500;
     text-align: right;
 }
